@@ -1,9 +1,10 @@
 import streamlit as st
 name = "James Njoroge"
+st.set_page_config(layout='wide')
 sidebar = st.sidebar
 with sidebar:
     st.write("App Side Bar")
-st.set_page_config(layout='wide')
+
 
 consignee_form = st.form(key="consignee_form")
 destinations = [
