@@ -1,6 +1,6 @@
 import streamlit as st
 name = "James Njoroge"
-
+sidebar = st.sidebar()
 st.set_page_config(layout='wide')
 
 consignee_form = st.form(key="consignee_form")
