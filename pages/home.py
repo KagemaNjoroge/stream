@@ -1,6 +1,6 @@
 import streamlit as st
 name = "James Njoroge"
-sidebar = st.sidebar()
+sidebar = st.sidebar
 with sidebar:
     st.write("App Side Bar")
 st.set_page_config(layout='wide')
