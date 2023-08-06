@@ -64,7 +64,7 @@ const column1 = [
 ];
 
 const column2 = [
-  { name: "Not Found 404", href: "404" },
+ 
   { name: "Documentation", href: "/" },
   { name: "Guides", href: "/" },
   { name: "Help", href: "/" },
@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/logo-rose.svg"
+              src="/images/logos/logo.png"
               alt="Logo Your Company"
               width={150}
               height={150}
@@ -94,8 +94,7 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Halley is ipsum dolor sit amet consectetur adipisicing itaque enim
-            labore dolores culpa consequatur harum.
+Malipo POS, the convenience of running business in the cloud.
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
@@ -160,7 +159,7 @@ export default function Footer() {
 
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 p-6 text-center border-t border-neutral-800">
         <Link
-          href="https://humbernieto.pro"
+          href="https://tomorrow.co.ke"
           target="_blank"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >

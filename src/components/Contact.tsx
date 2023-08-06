@@ -63,31 +63,31 @@ export default function Contact() {
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           Want to contact us? Choose an option below and well be happy to show
-          you how Halley can transform her companys web experience.
+          you how Malipo POS can transform your business.
         </p>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         <div>
-          <h2 className="text-lg font-bold">Contact Halley</h2>
+          <h2 className="text-lg font-bold">Contact Tomorrow</h2>
           <p className="max-w-sm mt-4 mb-4 dark:text-neutral-400">
             Have something to say? We are here to help. Fill up the form or send
             email or call phone.
           </p>
 
-          <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
+          {/* <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
             <MapIcon className="w-4 h-4" />
             <span>Av Tomas Marsano 700, Lima - Perú</span>
-          </div>
+          </div> */}
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <EnvelopeIcon className="w-4 h-4" />
-            <a href="mailto:hello@halley.vercel.app">hello@halley.vercel.app</a>
+            <a href="mailto:hello@halley.vercel.app">info@tomorrow.co.ke</a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <PhoneIcon className="w-4 h-4" />
-            <a href="tel:51931999999">+51 931999999</a>
+            <a href="tel:51931999999">+254 706076039</a>
           </div>
         </div>
 

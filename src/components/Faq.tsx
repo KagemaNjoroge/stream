@@ -10,7 +10,7 @@ const faqitems = [
   {
     question: "Do you offer technical support?",
     response:
-      "No, we dont offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes, our support team is available 24/7 to respond to any queries",
   },
   {
     question: "What is your refund policy? If youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reason",
@@ -20,7 +20,7 @@ const faqitems = [
   {
     question: "What forms of payment do you accept?",
     response:
-      "You can use any debit or credit card to pay for a subscription. We secure your card details and process payments via Stripe. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "Malipo POS payments can be made through M-PESA, cheque or bank transer",
   },
 ];
 
@@ -35,8 +35,7 @@ export default function Faq() {
       </h2>
 
       <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      As Malipo POS, we prioritize our customers{"'"} success, and that{"'"}s why we provide extensive training and support to ensure they can use our product effectively. Whether you have a question about a feature or are experiencing technical difficulties, our team is there to help.
       </p>
       <div className="mx-auto w-full max-w-2xl rounded-2xl bg-transparent dark:bg-transparent">
         {faqitems.map(({ question, response }) => (

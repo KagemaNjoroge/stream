@@ -3,25 +3,39 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
+    title: "KRA / ETIMS Integration",
+    description: "Malipo POS integrates with Kenya Revenue Authority transmitting invoices & reports as soon as they are generated. VAT compliance has never been this easier",
+    features: [
+      'Seamless integration with Kenya Revenue Authority(KRA) servers',
+      'Monthly Reports for VAT filing',
+      'Receive KRA Notifications without leaving the app',
+      'AI guided VAT Filing support'
+    ],
+    image: '/images/features/kra.jpg',
+    order: false
+  },
+  {
     title: "Dashboard",
     description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
+      "Get a quick overview of your business, and access all the most important features with ease. See your daily sales, your customers, your products and more.",
     features: [
-      "Lacus eu mauris quisque tortor torquent",
-      "Lorem ipsum dolor sit amet consectetur",
-      "Lacus eu mauris quisque tortor torquent",
+      "Daily/Weekly/Monthly sales reports",
+      'Inventory stats',
+      "Customers management",
+      "Users management",
     ],
     image: "/images/features/dashboard.svg",
     order: false,
   },
   {
-    title: "Products",
+    title: "Products / Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
+      "Add your products and organize them into categories. You can also add variants, such as size and color, and manage your inventory.",
     features: [
-      "But I must explain to you how all this mistaken",
-      "Voluptatum deleniti atque corrupti quos",
-      "He endures pains to avoid worse pains",
+      "Sync products with your online store",
+      "Add product variants",
+      "Add, edit and delete products",
+
     ],
     image: "/images/features/product.svg",
     order: true,
@@ -29,11 +43,11 @@ const contents = [
   {
     title: "Inventory",
     description:
-      "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
+      "Manage your inventory, and get notified when you are running low on stock. You can also add your suppliers and purchase orders.",
     features: [
-      "Sed ut perspiciatis unde omnis iste natus",
-      "Quis autem vel eum iure reprehenderit",
-      "Consequuntur magni dolores eos qui ratione",
+      "Low stock alerts",
+      "Imports management",
+      "Add suppliers and purchase orders",
     ],
     image: "/images/features/inventory.svg",
     order: false,
@@ -46,8 +60,8 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
-          aliquam sem nullam, elementum vestibulum augue placerat.
+        Malipo POS is packed with features that will help you to run your business more efficiently and effectively.
+
         </p>
 
         {contents.map((content) => (
